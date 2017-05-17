@@ -29,7 +29,9 @@ import com.mastercard.masterpass.core.EnvironmentType;
 import com.mastercard.masterpass.merchant.MasterPassMerchantConfig;
 import com.mastercard.mymerchant.network.NetworkManager;
 import com.mastercard.mymerchant.util.PreferencesHelper;
-
+import com.microsoft.azure.mobile.MobileCenter;
+import com.microsoft.azure.mobile.analytics.Analytics;
+import com.microsoft.azure.mobile.crashes.Crashes;
 import java.util.Locale;
 
 /**
